@@ -120,9 +120,5 @@ The repository includes video evidence for:
 - warm-up evaluation videos,
 - and stress test videos.
 
-## Thesis Link
 
-This repository supports the thesis:
-
-**Analysis and Improvement of Deep Reinforcement Learning-Based Mobile Robot Navigation in Dynamic Environments**
 
