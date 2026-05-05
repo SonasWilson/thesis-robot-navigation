@@ -1,0 +1,9 @@
+models/
+logs/
+videos/
+figures/
+results/
+__pycache__/
+*.pyc
+*.pkl
+*.zip
