@@ -23,7 +23,7 @@ The repository includes:
 ├── environments/          # Custom Gymnasium/PyBullet environments
 │   ├── static_2.py
 │   ├── dynamic_2.py
-│   ├── v5.py
+│   ├── v5.py              # Improved model (Safety v6)
 │   └── sphere_nav_env.py
 ├── training/              # Training scripts
 │   ├── train_gap1.py
