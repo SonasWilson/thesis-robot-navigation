@@ -54,11 +54,6 @@ The repository includes:
 │   ├── plot_test_configs_overview.py
 │   ├── plot_training_metrics.py
 │   └── screenshot_envs.py
-├── models/                # Saved model checkpoints
-├── logs/                  # Training logs
-├── results/               # Metrics, tables, and outputs
-├── figures/               # Thesis figures
-└── videos/                # Evidence videos
 ```
 
 ## Curriculum Stages
@@ -102,23 +97,13 @@ python evaluation/curriculum_eval.py --stage_start 1 --stage_end 6 --episodes 10
 python evaluation/generalization_assessment.py --mode all --source_stage 6
 ```
 
-### 4. Generate thesis figures
+### 4. Generate figures
 ```bash
 python visualization/plot_curriculum_results.py
 python visualization/plot_generalization_figures.py --out_dir ./figures
 python visualization/plot_curriculum_stage_progression.py --out_dir ./figures
 ```
 
-
-## Supplementary Material
-
-The repository includes video evidence for:
-- baseline failure episodes,
-- successful navigation episodes,
-- combined curriculum-stage videos,
-- zero-shot generalization videos,
-- warm-up evaluation videos,
-- and stress test videos.
 
 
 
