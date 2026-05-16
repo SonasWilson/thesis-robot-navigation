@@ -20,7 +20,7 @@ The repository includes:
 
 ```text
 .
-├── environments/          # Custom Gymnasium/PyBullet environments
+├── envs/          # Custom Gymnasium/PyBullet environments
 │   ├── static_2.py
 │   ├── dynamic_2.py
 │   ├── v5.py              # Improved model (Safety v6)
@@ -54,6 +54,7 @@ The repository includes:
 │   ├── plot_test_configs_overview.py
 │   ├── plot_training_metrics.py
 │   └── screenshot_envs.py
+├── plots/         # Plots generated
 ```
 
 ## Curriculum Stages
